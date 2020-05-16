@@ -42,5 +42,17 @@
   </dependencies>
   <build>
     <finalName>LoginSpring</finalName>
+    
+    <plugins>
+    <plugin>
+      <groupId>com.heroku.sdk</groupId>
+      <artifactId>heroku-maven-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+        <appName>limitless-fortress-62931</appName>
+      </configuration>
+    </plugin>
+  </plugins>
+  
   </build>
 </project>
